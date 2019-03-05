@@ -2,6 +2,16 @@ body {
     background-color: #f0f0f0;
 }
 
+.btn-download {
+    font-family: "linearicons";
+    width: 100%;
+    background-color: rgba(0, 43, 124, 1);
+}
+
+.btn-download:hover {
+    background-color: rgba(0, 43, 124, .8);
+}
+
 .btn-custom {
     height: 8%;
     margin-top: 4px;
@@ -42,7 +52,7 @@ body {
     padding-bottom: 6rem;
     margin-bottom: 0;
     /*background-color: #ffffff;*/
-    background-image: url(../img/wallpaper.jpg);
+    background-image: url(../img/wallpaper4.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -86,10 +96,6 @@ span.w-ul {
     border-right: none;
 }
 
-span.headurl:hover {
-    color: orangered;
-}
-
 /*------------------
     FONT-FACES
 -------------------*/
@@ -97,4 +103,17 @@ span.headurl:hover {
 @font-face {
     font-family: "fira-code-light";
     src: url(../fonts/FiraCode-Light.ttf);
+}
+
+@font-face {
+    font-family: "linearicons";
+    src: url(../fonts/Linearicons-Free.ttf);
+}
+
+/*------------------
+    type-styles
+-------------------*/
+
+iconfont {
+    font-family: "linearicons";
 }
