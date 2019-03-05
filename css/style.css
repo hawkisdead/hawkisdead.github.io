@@ -1,0 +1,91 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.container h1 {
+    margin-top: 20px;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+    margin-top: 5px;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 0;
+    /*background-color: #ffffff;*/
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+/*------------------
+       SPANS
+-------------------*/
+
+span.headline {
+    margin-top: 10px;
+}
+
+span.headurl {
+    margin-bottom: 0;
+    color: #f4b200;
+}
+
+span.b-ul {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: none;
+}
+
+span.w-ul {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-right: none;
+}
+
+span.headurl:hover {
+    color: orangered;
+}
+
+/*------------------
+    FONT-FACES
+-------------------*/
+
+@font-face {
+    font-family: "fira-code-light";
+    src: url(../fonts/FiraCode-Light.ttf);
+}
